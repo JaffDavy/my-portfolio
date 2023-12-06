@@ -24,7 +24,7 @@ function updateTechList () {
 }
 
 function addTechnology () {
-  const newTechInput =document.getElementById('newTech')
+  const newTechInput = document.getElementById('newTech')
   const newTech = newTechInput.value.trim()
 
   if (newTech !== '') {
@@ -33,6 +33,6 @@ function addTechnology () {
     newTechInput.value = ''
   }
 }
-
+addTechnology()
 updateProjectList()
 updateTechList()
